@@ -25,11 +25,17 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import {multiply} from 'react-native-awesome-module';
+
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
 function Section({children, title}: SectionProps): React.JSX.Element {
+  multiply(3, 7).then(result => {
+    console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Result:', result);
+  });
+
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
