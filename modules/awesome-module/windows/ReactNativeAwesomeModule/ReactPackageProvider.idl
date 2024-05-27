@@ -1,0 +1,9 @@
+namespace ReactNativeAwesomeModule
+{
+    [webhosthidden]
+    [default_interface]
+    runtimeclass ReactPackageProvider : Microsoft.ReactNative.IReactPackageProvider
+    {
+        ReactPackageProvider();
+    };
+}
