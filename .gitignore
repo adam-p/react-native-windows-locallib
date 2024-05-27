@@ -1,3 +1,5 @@
+*.binlog
+
 # OSX
 #
 .DS_Store
