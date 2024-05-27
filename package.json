@@ -13,7 +13,8 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.74.1",
-    "react-native-windows": "0.74.5"
+    "react-native-windows": "0.74.5",
+    "react-native-awesome-module": "file:./modules\\awesome-module"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
